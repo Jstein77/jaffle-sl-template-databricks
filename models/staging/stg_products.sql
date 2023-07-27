@@ -3,7 +3,7 @@ with
 
 source as (
 
-    select * from raw_products
+    select * from dbt_sandbox.raw_products
 
 ),
 
