@@ -3,7 +3,7 @@ with
 
 source as (
 
-    select * from raw_stores
+    select * from dbt_sandbox.raw_stores
 
     -- {# data runs to 2026, truncate timespan to desired range, 
     -- current time as default #}
